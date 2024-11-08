@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link href="/css/common.css" rel="stylesheet">
+    <link href="/css/index.css" rel="stylesheet">
+
+    <title>Pig Game</title>
+</head>
+
+<body>
+<%- include('../partials/header.ejs') %>
+
+<input class="input-name" type="text" placeholder="Your name...">
+
+<div class="game-container">
+    <div class="game-container-item">
+        <h4 class="game-container-item--title">New Game</h4>
+        <button class="btn-new-game"><i class="ion-ios-plus-outline"></i>Join</button>
+    </div>
+    <div class="game-container-item">
+        <h4 class="game-container-item--title">Join Game</h4>
+        <input class="input-roomId" type="text" placeholder="Enter room Id...">
+        <button class="btn-join-game"><i class="ion-ios-plus-outline"></i>Join</button>
+    </div>
+</div>
+
+<!--<%- include('../partials/footer.ejs') %>-->
+<script src="/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+.input-name {
+    display: block;
+    width: 50%;
+    margin: auto;
+    height: 50px;
+    background: #fff;
+    font-size: 24px;
+    border: 1px solid #EB4D4D;
+    border-radius: 5px;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    height: 300px;
+    margin: 64px 128px;
+    background-color: #ffffff;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
+}
+
+.game-container-item {
+    padding: 32px;
+    height: 100%;
+}
+
+.game-container-item--title {
+    font-size: 32px;
+    text-align: center;
+    color: #222222;
+}
+
+.input-roomId {
+    display: block;
+    width: 100%;
+    margin: 32px auto;
+    height: 50px;
+    font-size: 24px;
+    border: 1px solid #EB4D4D;
+    border-radius: 5px;
+}
+
+.btn-new-game {
+    margin-top: 100px;
+    left: 25%;
+}
+
+.btn-join-game {
+    left: 70%;
+}
